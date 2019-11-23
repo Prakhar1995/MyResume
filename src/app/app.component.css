@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h3{
+    margin:0px;
+    color:#202a43;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+   padding: 10px;
+}
+.header > h2{
+    margin:0px;
+}
+.header >h2 >p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.side{
+    color:white;
+    display :flex;
+    flex-direction: column;
+    background-color: #003b6f;
+    width:40vw;
+    
+}
+.side>p{
+    font-family: 'Times New Roman', Times, serif; 
+    padding:10px;
+}
+.subSideHeading{
+    
+    background-color: #002a54;
+}
+.subSideHeading >p{
+    padding:10px;
+    margin:0px;
+}
+.main {
+    padding:10px;
+    border:turquoise;
+}
+.exp{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
